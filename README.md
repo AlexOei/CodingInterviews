@@ -4,7 +4,7 @@
 
 ## Sliding Window
 ### General Psuedocode:
-Prerequisite variables: left pointer, best result
+Prerequisite variables: left pointer, best result  
 Prerequisite Data Structures: Usually a hashmap, array, or dequeue
 Process an input (if necessary): Usually hashmap or array of one of the inputs
 Iterate through the array

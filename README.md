@@ -10,7 +10,8 @@ Process an input (if necessary): Usually hashmap or array of one of the inputs
 - Iterate through the array  
   - Add to the window if constraint is fulfilled  
   - Check if the current answer is better  
-  - Move the left end of the window/pointer if constraint is fulfilled  
+  - Move the left end of the window/pointer if constraint is fulfilled
+- Return the desired value  
   
   
 

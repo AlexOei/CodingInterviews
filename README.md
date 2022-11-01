@@ -37,6 +37,38 @@ class Solution:
 
 #### Best Time to Buy and Sell Stock Easy
 
+Brute Force:
+  try every combination starting at each number in the array. Time complexity of n^2
+
+Optimized Algorithm: 
+- Structures: buy = 0, currentProfit, maxProfit
+- Base Case: if list is less than length 2, return 0, as there you can't sell
+- Start at the first day you can sell, day 2
+  - determine the profit
+  - if greater than current profit, store the value
+  - if the value is less than the day we buy, move the buy pointer
+- Return the maxProfit if > 0, otherwise return 0
+
+```
+class Solution:
+    def maxProfit(self, prices: List[int]) -> int:
+        buy = 0
+        curProfit = float('-infinity')
+        maxProfit = float('-infinity')
+        
+        for day in range(1, len(prices)):
+            curProfit = prices[day] - prices[buy]
+            maxProfit = max(curProfit, maxProfit)
+            if prices[day] < prices[buy]:
+                buy = day
+                
+        if maxProfit > 0:
+            return maxProfit
+        return 0
+
+```
+
+
 #### Longest Substring Without Repeating Characters Medium
 
 #### Longest Repeating Character Replacement Medium

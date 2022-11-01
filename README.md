@@ -4,6 +4,8 @@
 
 ## Sliding Window
 
+# Best Time to Buy and Sell Stock
+
 ## Two Pointers
 
 ## Fast and Slow Pointers

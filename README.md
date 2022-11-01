@@ -35,7 +35,7 @@ class Solution:
 
 
 
-#### Best Time to Buy and Sell Stock Easy
+#### Best Time to Buy and Sell Stock (Easy)
 
 Brute Force:
   - try every combination starting at each number in the array.
@@ -71,7 +71,6 @@ class Solution:
         return 0
 
 ```
-
 
 #### Longest Substring Without Repeating Characters Medium
 

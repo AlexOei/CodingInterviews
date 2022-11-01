@@ -38,7 +38,9 @@ class Solution:
 #### Best Time to Buy and Sell Stock Easy
 
 Brute Force:
-  try every combination starting at each number in the array. Time complexity of n^2
+  - try every combination starting at each number in the array.
+  - Time complexity of O(n^2)
+  - Space complexity of O(1)
 
 Optimized Algorithm: 
 - Structures: buy = 0, currentProfit, maxProfit

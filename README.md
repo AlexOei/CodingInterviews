@@ -3,8 +3,27 @@
 
 
 ## Sliding Window
+General Psuedocode:
 
-# Best Time to Buy and Sell Stock
+
+
+
+
+
+
+
+
+### Best Time to Buy and Sell Stock Easy
+
+### Longest Substring Without Repeating Characters Medium
+
+### Longest Repeating Character Replacement Medium
+
+### Permutation in String Medium
+
+### Minimum Window Substring
+
+### Sliding Window Maximum
 
 ## Two Pointers
 

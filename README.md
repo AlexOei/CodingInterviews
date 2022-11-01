@@ -28,6 +28,7 @@ class Solution:
         Iterate through Array, adding to window
             Check if answer is better if constraint is fulfilled
             Move left pointer if constraint is fulfilled
+            
         Return answer
         
 ```
@@ -75,11 +76,13 @@ class Solution:
         for day in range(1, len(prices)):
             curProfit = prices[day] - prices[buy]
             maxProfit = max(curProfit, maxProfit)
+            
             if prices[day] < prices[buy]:
                 buy = day
                 
         if maxProfit > 0:
             return maxProfit
+            
         return 0
 
 ```

@@ -25,8 +25,7 @@ class Solution:
 
         Base Cases: If null or constraint is not fulfilled
         
-        Iterate through Array
-            Add to window if constraint is fulfilled
+        Iterate through Array, adding to window
             Check if answer is better if constraint is fulfilled
             Move left pointer if constraint is fulfilled
         Return answer

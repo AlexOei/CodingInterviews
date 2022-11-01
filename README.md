@@ -16,23 +16,23 @@ Process an input (if necessary): Usually hashmap or array of one of the inputs
   - Move the left end of the window/pointer if constraint is fulfilled
 - Return the desired value  
   
-'''
+```
 class Solution:
     def something(self, s: str, t: str) -> str:
     
-        #Prereq Variables
-        #Prereq Structures
+        Prereq Variables
+        Prereq Structures
         
-        #Base Cases
-        #Process Inputs if needed
+        Base Cases
+        Process Inputs if needed
         
-        #Iterate through Array
-          #Add to window if constraint is fulfilled
-          #Check if answer is better if constraint is fulfilled
-          #Move left pointer if constraint is fulfilled
-        #Return answer
+        Iterate through Array
+            Add to window if constraint is fulfilled
+            Check if answer is better if constraint is fulfilled
+            Move left pointer if constraint is fulfilled
+        Return answer
         
-'''
+```
 
 
 

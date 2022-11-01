@@ -10,10 +10,9 @@ class Solution:
     
         Prereq Variables: left and/or right pointer, current result, best result
         Prereq Structures: usually hashmap, array, or dequeue
-        
-        
-        Base Cases: If null or constraint is not fulfilled
         Process Inputs if needed
+
+        Base Cases: If null or constraint is not fulfilled
         
         Iterate through Array
             Add to window if constraint is fulfilled

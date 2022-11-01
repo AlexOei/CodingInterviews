@@ -50,6 +50,8 @@ Optimized Algorithm:
   - if greater than current profit, store the value
   - if the value is less than the day we buy, move the buy pointer
 - Return the maxProfit if > 0, otherwise return 0
+- Time Complexity of O(n), go through every number at most twice
+- Space Complexity of O(1), only use constant variables
 
 ```
 class Solution:

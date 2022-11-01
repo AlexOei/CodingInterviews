@@ -7,12 +7,12 @@
 ### Clarifying Questions:
 - Time and Space Constraints
 - Inputs
-  - empty?
-  - valid?
-  - negative?
+  - Can the inputs be empty?
+  - Will the inputs be valid?
+  - Can the inputs be negative?
 - Solutions
-  - no solution?
-  - multiple solutions?
+  - What do I return if there is no solution?
+  - What do I return if there are multiple solutions?
 
 ### General Psuedocode:  
 ```

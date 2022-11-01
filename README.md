@@ -3,6 +3,17 @@
 
 
 ## Sliding Window
+
+### Clarifying Questions:
+- Time and Space Constraints
+- Inputs
+  - empty?
+  - valid?
+  - negative?
+- Solutions
+  - no solution?
+  - multiple solutions?
+
 ### General Psuedocode:  
 ```
 class Solution:

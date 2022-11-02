@@ -76,6 +76,15 @@ class Solution:
 
 ### [Longest Substring Without Repeating Characters Medium](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
 
+Optimized Algorithm:
+- Structures: left = 0 curMax = 0 totalMax = 0 hashSet
+- Base Case: s = ''
+- Iterate through the string
+  - if the hashset has the letter, remove the letter at the left index if in the hashset and then move the pointer to the right
+  - add to the hashset
+  - check the length
+- return the length
+
 ### [Longest Repeating Character Replacement Medium](https://leetcode.com/problems/longest-repeating-character-replacement/)
 
 ### [Permutation in String Medium](https://leetcode.com/problems/permutation-in-string/)

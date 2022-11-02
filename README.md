@@ -75,15 +75,19 @@ class Solution:
 ```
 
 ### [Longest Substring Without Repeating Characters Medium](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
+Brute Force Algorithm:
+- iterate through array
+  - keep track of longest
 
 Optimized Algorithm:
 - Structures: left = 0 curMax = 0 totalMax = 0 hashSet
-- Base Case: s = ''
 - Iterate through the string
   - if the hashset has the letter, remove the letter at the left index if in the hashset and then move the pointer to the right
   - add to the hashset
   - check the length
 - return the length
+- Time complexity of O(N), at most hit every character twice
+- Space complexity of O(N), at most stores the entire list
 
 ### [Longest Repeating Character Replacement Medium](https://leetcode.com/problems/longest-repeating-character-replacement/)
 
